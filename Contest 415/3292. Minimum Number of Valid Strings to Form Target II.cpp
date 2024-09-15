@@ -24,6 +24,7 @@ template <class T>
 inline bool ckmax(T &x, const T &y) { return x < y ? x = y, 1 : 0; }
 int init = []()
 { return cin.tie(nullptr)->sync_with_stdio(false), 0; }();
+
 vector<int> z_function(string s)
 {
     int n = (int)s.length();
@@ -45,6 +46,7 @@ vector<int> z_function(string s)
     }
     return z;
 }
+
 class Solution
 {
 public:
